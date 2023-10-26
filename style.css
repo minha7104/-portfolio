@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+
+}
+h1{
+	font-family: 'Dancing Script', cursive;
+	font-size: 5rem;
+}
+
+.hi{
+	font-size: 4rem;
+}
+
+.mainhead{
+
+}
+
+.subheading{
+
+}
+
+.parent{
+	height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 40, 91, 0.17);
+    background-image: url('images/bgpic.jpg');
+}
+.child{
+
+}
+.title-div{
+	    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
