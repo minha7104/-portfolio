@@ -1,18 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&family=Poppins:wght@300;400;500&display=swap');
 
+html{
+	  scroll-behavior: smooth;
 
+}
 
 *{
 	margin: 0;
 	padding: 0;
-
 }
+
 body{
+	font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
 
 }
+
+nav{
+	display:flex;
+	justify-content: space-between;
+
+}
+
+.logo{
+	width: 2rem;
+}
+
+
+.navbar-ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	gap: 1.5rem;
+	font-size: 0.9rem;
+	align-items: center;
+}
+
+.nav-list{
+
+}
+
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: #CF4ABF;
+}
+
+
+
 h1{
-	font-family: 'Dancing Script', cursive;
-	font-size: 5rem;
+	
 }
 
 .hi{
@@ -20,7 +62,12 @@ h1{
 }
 
 .mainhead{
-
+	font-family: 'Dancing Script', cursive;
+	font-size: 5rem;
+}
+.icon{
+	text-decoration: none;
+	font-size: 1.6rem ;
 }
 
 .subheading{
@@ -32,8 +79,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 40, 91, 0.17);
-    background-image: url('images/bgpic.jpg');
+    background-color: #CF4ABF;
+/*    background-image: url('images/bgpic.jpg');*/
 }
 .child{
 
@@ -42,5 +89,45 @@ h1{
 	    display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0.7rem;
+    color: whitesmoke;
 }
 
+.title-div a{
+	color: whitesmoke;
+}
+
+
+.about{
+	padding: 5rem;
+}
+.main-content{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.about-img{
+	width: 30rem;
+}
+
+.service-sec{
+	padding: 0rem 6rem 6rem 6rem;
+}
+
+
+.service-sec ul{
+	list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+    justify-content: center;
+
+}
+.service-sec li{
+	border: 3px solid black;
+    padding: 0.5rem;
+}
+.service-sec li:hover{
+	color: whitesmoke;
+	background-color: #CF4ABF;
+}
