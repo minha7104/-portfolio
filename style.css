@@ -82,9 +82,13 @@ h1{
     background-color: #CF4ABF;
 /*    background-image: url('images/bgpic.jpg');*/
 }
-.child{
-
+.waves{
+    rotate: 180deg;
 }
+
+
+
+
 .title-div{
 	    display: flex;
     flex-direction: column;
