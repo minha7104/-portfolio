@@ -11,10 +11,11 @@ html{
 }
 
 body{
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif !important;
+
 }
 
-.navbar{
+.nav-bar{
 
 }
 
@@ -36,6 +37,7 @@ nav{
 	gap: 1.5rem;
 	font-size: 0.9rem;
 	align-items: center;
+	margin-bottom: 0 !important;
 }
 
 .nav-list{
@@ -44,17 +46,18 @@ nav{
 
 
 a{
-	text-decoration: none;
+	text-decoration: none !important;
+	color: black !important;
 }
 
 a:hover{
-	color: #CF4ABF;
+	color: #CF4ABF !important;
 }
 
 
 
 h1{
-	
+	font-weight: 600 !important;
 }
 
 .hi{
@@ -94,11 +97,15 @@ h1{
     flex-direction: column;
     align-items: center;
     gap: 0.7rem;
-    color: whitesmoke;
+    color: whitesmoke !important;
 }
 
 .title-div a{
-	color: whitesmoke;
+	color: whitesmoke !important;
+}
+
+.title-div a:hover{
+	color: #CF4ABF !important;
 }
 
 
@@ -134,4 +141,61 @@ h1{
 .service-sec li:hover{
 	color: whitesmoke;
 	background-color: #CF4ABF;
+}
+
+
+.contact-head{
+	padding: 0rem 6rem 6rem 2rem;
+
+}
+
+
+
+@media(max-width:769px){
+	.main-content{
+		flex-direction: column;
+	}
+
+	.main,
+	.skill,
+	.project,
+	.contact-head{
+		text-align: center;
+	}
+
+	.contact-head{
+		padding: 0;
+	}
+
+	ul{
+		padding-left: 0 !important;
+	}
+
+	.service-sec{
+
+	}
+
+	.service-sec ul{
+		flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    text-align: center;
+	}
+}
+@media(max-width:426px){
+	.about-img{
+		width: 25rem;
+	}
+	.mainhead{
+		text-align: center;
+	}
+	.about{
+		padding: 2rem;
+	}
+}
+@media(max-width:376px){
+	.about-img{
+		width: 24rem;
+          
+	}
 }
