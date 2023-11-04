@@ -185,6 +185,7 @@ h1{
 @media(max-width:426px){
 	.about-img{
 		width: 25rem;
+		max-width: 100%;
 	}
 	.mainhead{
 		text-align: center;
@@ -196,6 +197,30 @@ h1{
 @media(max-width:376px){
 	.about-img{
 		width: 24rem;
+		max-width:100%;
           
 	}
+}
+@media(max-width:321px){
+	.logo {
+    width: 1.5rem;
+}
+.navbar-ul {
+    gap: 1rem;
+    margin-right: 1.5rem;
+    font-size:0.7rem;
+}
+    .about-img {
+        max-width: 100%;
+    }
+
+.mainhead {
+    text-align: center;
+    font-size: 3rem;
+}
+.service-sec {
+    padding: 0rem 2rem 6rem 2rem;
+}
+.about {
+    padding: 1rem;
 }
