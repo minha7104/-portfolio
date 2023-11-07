@@ -148,6 +148,40 @@ h1{
 	padding: 0rem 6rem 6rem 2rem;
 
 }
+.project-content{
+display: flex;
+gap: 4rem;
+padding: 2rem;
+}
+
+
+.card{
+	--bs-card-border-width:none !important;
+}
+
+.card-img-top{
+ 
+ border-top-left-radius: 1.5rem !important;
+ border-top-right-radius: 1.5rem !important;
+}
+
+
+.card-body{
+	background-color: #CF4ABF !important;
+	border-bottom-left-radius: 1.5rem !important;
+    border-bottom-right-radius: 1.5rem !important;
+}
+.btn{
+	--bs-btn-bg: #CF4ABF !important;
+    --bs-btn-border-color: #fff !important;
+}
+.btn-primary{
+	--bs-btn-hover-bg: white !important;
+	--bs-btn-hover-border-color:#CF4ABF !important;
+	--bs-btn-active-bg:#CF4ABF !important;
+	--bs-btn-active-border-color:#CF4ABF !important;
+}
+
 
 
 
@@ -205,6 +239,7 @@ h1{
 	.logo {
     width: 1.5rem;
 }
+
 .navbar-ul {
     gap: 1rem;
     margin-right: 1.5rem;
@@ -223,4 +258,11 @@ h1{
 }
 .about {
     padding: 1rem;
+}
+.project-sec{
+
+}
+
+
+
 }
