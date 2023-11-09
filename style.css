@@ -12,6 +12,7 @@ html{
 
 body{
 	font-family: 'Poppins', sans-serif !important;
+	margin-top: 3rem !important;
 
 }
 
@@ -42,6 +43,10 @@ nav{
 
 .nav-list{
 
+}
+
+.hamburg{
+	justify-content: flex-end;
 }
 
 
@@ -112,6 +117,11 @@ h1{
 .about{
 	padding: 5rem;
 }
+
+.about.paras{
+	color: #502a8a;
+}
+
 .main-content{
 	display: flex;
     flex-direction: row;
@@ -167,7 +177,7 @@ padding: 2rem;
 
 
 .card-body{
-	background-color: #CF4ABF !important;
+	background-color: white !important;
 	border-bottom-left-radius: 1.5rem !important;
     border-bottom-right-radius: 1.5rem !important;
 }
@@ -195,6 +205,18 @@ padding: 2rem;
 	.project,
 	.contact-head{
 		text-align: center;
+	}
+
+
+	.hamburg{
+		   justify-content: center !important;
+    		text-align: center;
+	}
+
+	.project-content{
+		display: flex;
+		flex-wrap: wrap;
+		padding: 4rem;
 	}
 
 	.contact-head{
